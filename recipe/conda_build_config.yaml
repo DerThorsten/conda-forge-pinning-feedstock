@@ -526,7 +526,7 @@ libevent:
 libexactreal:
   - 2
 libffi:
-  - '3.3'
+  - '3.4'
 libflatsurf:
   - 3
 libflint:
@@ -686,16 +686,17 @@ proj:
   - 8.2.0
 pybind11_abi:
   - 4
-python:
-  # part of a zip_keys: python, python_impl, numpy
-  - 3.7.* *_cpython    # [not (osx and arm64)]
-  - 3.8.* *_cpython
-  - 3.9.* *_cpython
-python_impl:
-  # part of a zip_keys: python, python_impl, numpy
-  - cpython   # [not (osx and arm64)]
-  - cpython
-  - cpython
+# python:
+#   # part of a zip_keys: python, python_impl, numpy
+#   - 3.7.* *_cpython    # [not (osx and arm64)]
+#   - 3.8.* *_cpython
+#   - 3.9.* *_cpython
+#   - 3.11.* *_cpython
+# python_impl:
+#   # part of a zip_keys: python, python_impl, numpy
+#   - cpython   # [not (osx and arm64)]
+#   - cpython
+#   - cpython
 qt:
   - 5.12
 qtkeychain:
